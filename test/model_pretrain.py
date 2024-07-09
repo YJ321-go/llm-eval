@@ -15,7 +15,7 @@ config = AutoConfig.from_pretrained(model_name)
 print(config)
 config.num_hidden_layers = 6
 new_model = AutoModel(config)
-new_model.save_pretrained("test_mmodel")
+new_model.save_pretrained("test/test_mmodel")
 
 
 """
